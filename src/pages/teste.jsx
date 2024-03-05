@@ -1,5 +1,6 @@
+
 export default function teste() {
   return (
-<h1>teste</h1>
+    <h1>Teste</h1>
   )
 }
