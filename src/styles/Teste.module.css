@@ -1,0 +1,46 @@
+.titulo{
+font-weight: bold;
+text-align: center;
+}
+
+
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.conteudo {
+    padding: 25px;
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+.card:hover {
+    opacity: 1;
+    color: #96f68b;
+    box-shadow: 0 0 5px #96f68b;
+    ;
+}
+
+.tituloCabecalho {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #96f68b;
+}
