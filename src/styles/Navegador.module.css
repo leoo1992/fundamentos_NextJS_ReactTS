@@ -1,15 +1,22 @@
-.buttonLink{
+.buttonLink {
     text-decoration: none;
     padding: 10px;
     border-radius: 15px;
     color: #fff;
     opacity: 0.8;
     font-weight: bold;
-    }
-    
-    .buttonLink:hover{
-    box-shadow: 0 0 10px #96f68b;
-    opacity: 1;
-    color: #96f68b;
-    }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #000000 3px 3px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
 
+.buttonLink:hover {
+    box-shadow: 0 0 10px #ffffff;
+    opacity: 1;
+    color: #ffffff;
+    transform: scale(1.02);
+}
