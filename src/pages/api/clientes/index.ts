@@ -1,13 +1,13 @@
-export default async (req, res) => {
+export default function handler(req, res) {
   switch (req.method) {
     case "GET":
-        handlerGET(req, res);
+      handlerGET(req, res);
       break;
     default:
       res.status(405).end(`Método ${req.method} não permitido.`);
       break;
   }
-};
+}
 
 function handlerGET(req, res) {
   res.status(200).json({

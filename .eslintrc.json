@@ -15,7 +15,6 @@
     ]
   },
   "plugins": [
-    "@next/eslint-plugin-next",
-    "@next/eslint-plugin-react"
+    "@next/eslint-plugin-next"
   ]
 }
